@@ -1,0 +1,7 @@
+{
+  "com.webos.assetmanager": [
+    "database",
+    "applications.internal",
+    "activities.manage"
+  ]
+}

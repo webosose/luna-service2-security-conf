@@ -1,0 +1,3 @@
+{
+  "com.webos.lunasendpub-*": ["ares.webos.cli", "public"]
+}

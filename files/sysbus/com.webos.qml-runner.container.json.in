@@ -1,0 +1,3 @@
+{
+	"exeNames": ["@WEBOS_INSTALL_BINDIR@/qml-runner"]
+}

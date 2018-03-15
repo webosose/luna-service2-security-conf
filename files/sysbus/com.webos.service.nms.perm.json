@@ -1,0 +1,4 @@
+{
+    "com.webos.service.nms": ["settings", "networking.internal", "tv.management",
+                              "activities.manage", "notifications", "applications.internal"]
+}

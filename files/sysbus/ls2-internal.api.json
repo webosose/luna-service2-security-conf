@@ -1,0 +1,9 @@
+{
+  "private": [
+    "*/com/palm/luna/private/*"
+  ],
+  "public": [
+    "*/com/palm/luna/private/ping",
+    "*/com/palm/luna/private/cancel"
+  ]
+}

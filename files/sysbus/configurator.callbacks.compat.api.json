@@ -1,0 +1,9 @@
+{
+  "configurator.callbacks": [
+    "com.palm.bus/signal/registerServerStatus",
+    "com.palm.lunabus/signal/registerServerStatus",
+    "com.webos.appUpdateService/check",
+    "com.webos.notification/purgeHistory",
+    "com.webos.service.bus/signal/registerServerStatus"
+  ]
+}

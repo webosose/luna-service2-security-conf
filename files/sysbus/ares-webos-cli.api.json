@@ -1,0 +1,10 @@
+{
+  "ares.webos.cli": [
+    "com.webos.appInstallService/dev/install",
+    "com.webos.appInstallService/dev/remove",
+    "com.webos.applicationManager/dev/listApps",
+    "com.webos.applicationManager/launch",
+    "com.webos.applicationManager/dev/closeByAppId",
+    "com.webos.applicationManager/dev/running"
+  ]
+}

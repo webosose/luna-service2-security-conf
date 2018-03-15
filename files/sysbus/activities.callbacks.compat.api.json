@@ -1,0 +1,23 @@
+{
+    "activities.callbacks": [
+        "com.palm.bus/signal/registerServerStatus",
+        "com.palm.connectionmanager/getstatus",
+        "com.palm.lunabus/signal/registerServerStatus",
+        "com.webos.applicationManager/closeByAppId",
+        "com.webos.applicationManager/getAppLifeStatus",
+        "com.webos.applicationManager/getForegroundAppInfo",
+        "com.webos.applicationManager/launch",
+        "com.webos.applicationManager/listApps",
+        "com.webos.applicationManager/running",
+        "com.webos.appInstallService/install",
+        "com.webos.appInstallService/status",
+        "com.webos.appUpdateService/check",
+        "com.webos.appUpdateService/status",
+        "com.webos.notification/createAlert",
+        "com.webos.notification/createToast",
+        "com.webos.service.bus/signal/registerServerStatus",
+        "com.webos.service.connectionmanager/getstatus",
+        "com.webos.service.downloadmanager/download",
+        "com.webos.settingsservice/getSystemSettings"
+    ]
+}
