@@ -4,8 +4,6 @@
   "com.palm.power": ["private", "public"],
   "com.palm.sleep": ["private", "public"],
   "com.palm.systemmanager": ["private", "public"],
-  "com.palm.webappmanager": ["private"],
-  "com.palm.webappmgr": ["private", "public"],
   "com.webos.applicationManager": ["private", "public"],
   "com.webos.booster": ["private"],
   "com.webos.media": ["private", "public"],
