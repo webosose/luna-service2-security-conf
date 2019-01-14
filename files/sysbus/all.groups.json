@@ -1,12 +1,4 @@
 {
-   "private":{
-      "description":"Group for system level inter-service communications (compatibility support)",
-      "public":false
-   },
-   "public":{
-      "description":"Group of API available for almost any service (compatibility support)",
-      "public":false
-   },
    "all":{
       "description":"Global group provides full access to all services",
       "public":false
