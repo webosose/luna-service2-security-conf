@@ -93,7 +93,7 @@
    },
    "media":{
       "description":"Full access to media services (manage audio, images, camera etc)",
-      "public":false
+      "public":true
    },
    "media.play":{
       "description":"Media playback functions",
