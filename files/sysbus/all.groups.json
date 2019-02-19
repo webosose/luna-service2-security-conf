@@ -51,14 +51,6 @@
       "description":"Query applications status and information",
       "public":true
    },
-   "bluetooth.manage":{
-      "description":"Manage bluetooth connections",
-      "public":true
-   },
-   "bluetooth.query":{
-      "description":"Query bluetooth service information",
-      "public":true
-   },
    "database":{
       "description":"Access to data storage services",
       "public":true
