@@ -5,7 +5,6 @@
   "com.palm.sleep": ["private", "public"],
   "com.palm.systemmanager": ["private", "public"],
   "com.webos.applicationManager": ["private", "public"],
-  "com.webos.booster": ["private"],
   "com.webos.media": ["private", "public"],
   "com.webos.nodejs": ["private", "public"],
   "com.webos.service.power": ["private", "public"],
