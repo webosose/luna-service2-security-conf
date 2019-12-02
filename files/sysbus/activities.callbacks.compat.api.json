@@ -11,8 +11,6 @@
         "com.webos.applicationManager/running",
         "com.webos.appInstallService/install",
         "com.webos.appInstallService/status",
-        "com.webos.appUpdateService/check",
-        "com.webos.appUpdateService/status",
         "com.webos.notification/createAlert",
         "com.webos.notification/createToast",
         "com.webos.service.bus/signal/registerServerStatus",
