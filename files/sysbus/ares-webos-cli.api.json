@@ -5,6 +5,8 @@
     "com.webos.applicationManager/dev/listApps",
     "com.webos.applicationManager/launch",
     "com.webos.applicationManager/dev/closeByAppId",
-    "com.webos.applicationManager/dev/running"
+    "com.webos.applicationManager/dev/running",
+    "com.webos.service.systemservice/deviceInfo/query",
+    "com.webos.service.systemservice/osInfo/query"
   ]
 }
