@@ -17,7 +17,18 @@
       "com.webos.memorymanager/getUnitList",
       "com.webos.memorymanager/sendLowMemPopupTest",
       "com.webos.memorymanager/setRequiredMemory",
-      "com.webos.memorymanager/startMemNotifier"
+      "com.webos.memorymanager/startMemNotifier",
+	  "com.webos.service.power2/acquireWakeLock",
+      "com.webos.service.power2/getPowerOnReason",
+      "com.webos.service.power2/getState",
+      "com.webos.service.power2/notifyAlarmExpiry",
+      "com.webos.service.power2/reboot",
+      "com.webos.service.power2/registerStateTransition",
+      "com.webos.service.power2/releaseWakeLock",
+      "com.webos.service.power2/respondStateTransitionAck",
+      "com.webos.service.power2/setPowerOnReason",
+      "com.webos.service.power2/setState",
+      "com.webos.service.power2/shutdown"
    ],
    "filecache":[ 
       "com.palm.filecache/DescribeType",
@@ -44,7 +55,13 @@
    ],
    "ares.webos.cli":[ 
       "com.webos.appInstallService/dev/install",
-      "com.webos.appInstallService/dev/remove"
+      "com.webos.appInstallService/dev/remove",
+	  "com.webos.applicationManager/dev/listApps",
+      "com.webos.applicationManager/launch",
+      "com.webos.applicationManager/dev/closeByAppId",
+      "com.webos.applicationManager/dev/running",
+      "com.webos.service.systemservice/deviceInfo/query",
+      "com.webos.service.systemservice/osInfo/query"
    ],
    "booster.control":[ 
       "com.webos.booster/close",
@@ -57,7 +74,24 @@
       "com.webos.bootManager/generateSignal",
       "com.webos.settingsservice/getSystemSettings",
       "com.webos.service.config/setConfigs",
-      "com.webos.service.config/getConfigs"
+      "com.webos.service.config/getConfigs",
+	  "com.palm.bus/signal/registerServerStatus",
+      "com.palm.connectionmanager/getstatus",
+      "com.palm.lunabus/signal/registerServerStatus",
+      "com.webos.applicationManager/closeByAppId",
+      "com.webos.applicationManager/getAppLifeStatus",
+      "com.webos.applicationManager/getForegroundAppInfo",
+      "com.webos.applicationManager/launch",
+      "com.webos.applicationManager/listApps",
+      "com.webos.applicationManager/running",
+      "com.webos.appInstallService/install",
+      "com.webos.appInstallService/status",
+      "com.webos.notification/createAlert",
+      "com.webos.notification/createToast",
+      "com.webos.service.bus/signal/registerServerStatus",
+      "com.webos.service.connectionmanager/getstatus",
+      "com.webos.service.downloadmanager/download",
+      "com.webos.settingsservice/getSystemSettings"
    ],
    "media.pipeline":[ 
       "com.webos.rm.client._*/acquireComplete",
@@ -288,7 +322,12 @@
       "com.webos.service.videooutput/display/getOutputCapabilities",
       "com.webos.service.videooutput/display/setDisplayWindow",
       "com.webos.service.videooutput/display/setCompositing",
-      "com.webos.service.videooutput/display/getParam"
+      "com.webos.service.videooutput/display/getParam",
+	  "com.webos.media/getDisplayId",
+	  "com.webos.service.audio/setInputVolume",
+	  "com.webos.service.audio/getInputVolume",
+	  "com.webos.service.audio/getStreamStatus",
+	  "com.webos.service.audio/playSound"
    ],
    "notifications.manage":[ 
       "com.webos.notification/createNotification",
@@ -323,7 +362,10 @@
       "com.webos.notification/removeNotification",
       "com.webos.notification/enable",
       "com.webos.notification/disable",
-      "com.webos.notification/createSignageAlert"
+      "com.webos.notification/createSignageAlert",
+	  "com.webos.notification/getToastCount",
+      "com.webos.notification/getToastList",
+      "com.webos.notification/setToastStatus"
    ],
    "system.debug":[ 
       "com.webos.pmlogd/backuplogs",
@@ -573,7 +615,8 @@
       "com.webos.memorymanager/getUnitList",
       "com.webos.memorymanager/sendLowMemPopupTest",
       "com.webos.memorymanager/setRequiredMemory",
-      "com.webos.memorymanager/startMemNotifier"
+      "com.webos.memorymanager/startMemNotifier",
+	  "com.palm.webappmanager/pauseApp"
    ],
    "applications.launch":[ 
       "com.webos.applicationManager/launch",
@@ -835,7 +878,37 @@
       "com.webos.service.pdm/isWritableDrive",
       "com.webos.service.pdm/setVolumeLabel",
       "com.webos.service.pdm/umountAllDrive",
-      "com.webos.service.pdm/mountandFullFsck"
+      "com.webos.service.pdm/mountandFullFsck",
+	  "com.webos.service.bluetooth2/avrcp/getPlayerInfo",
+	  "com.webos.service.bluetooth2/avrcp/browse/getCurrentFolder",
+	  "com.webos.service.bluetooth2/map/connect",
+      "com.webos.service.bluetooth2/map/disconnect",
+      "com.webos.service.bluetooth2/map/getMASInstances",
+      "com.webos.service.bluetooth2/map/getStatus",
+      "com.webos.service.bluetooth2/map/getMessageFilters",
+      "com.webos.service.bluetooth2/map/getFolderList",
+      "com.webos.service.bluetooth2/map/setFolder",
+      "com.webos.service.bluetooth2/map/getMessageList",
+      "com.webos.service.bluetooth2/map/getMessage",
+      "com.webos.service.bluetooth2/map/setMessageStatus",
+      "com.webos.service.bluetooth2/map/pushMessage",
+      "com.webos.service.bluetooth2/map/getMessageNotification",
+	  "com.webos.service.bluetooth2/pbap/connect",
+      "com.webos.service.bluetooth2/pbap/disconnect",
+      "com.webos.service.bluetooth2/pbap/setPhoneBook",
+      "com.webos.service.bluetooth2/pbap/getSize",
+      "com.webos.service.bluetooth2/pbap/vCardListing",
+      "com.webos.service.bluetooth2/pbap/getPhoneBookProperties",
+      "com.webos.service.bluetooth2/pbap/getvCardFilters",
+      "com.webos.service.bluetooth2/pbap/pullvCard",
+      "com.webos.service.bluetooth2/pbap/searchPhoneBook",
+      "com.webos.service.bluetooth2/pbap/pullPhoneBook",
+	  "com.webos.service.bluetooth2/device/getConnectedDevices",
+      "com.webos.service.bluetooth2/device/getPairedDevices",
+      "com.webos.service.bluetooth2/device/getDiscoveredDevice",
+	  "com.webos.service.pdm/getAttachedAllDeviceList",
+      "com.webos.service.pdm/dev/setDeviceForSession",
+      "com.webos.service.pdm/dev/getAttachedDeviceList"
    ],
    "bluetooth.query":[ 
       "com.webos.service.bluetooth2/a2dp/getStatus",
@@ -851,7 +924,12 @@
       "com.webos.service.bluetooth2/adapter/getStatus",
       "com.webos.service.bluetooth2/device/getStatus",
       "com.webos.service.bluetooth2/ftp/getStatus",
-      "com.webos.service.bluetooth2/opp/getStatus"
+      "com.webos.service.bluetooth2/opp/getStatus",
+	  "com.webos.service.bluetooth2/map/getMASInstances",
+      "com.webos.service.bluetooth2/map/getStatus",
+	  "com.webos.service.bluetooth2/device/getConnectedDevices",
+      "com.webos.service.bluetooth2/device/getPairedDevices",
+      "com.webos.service.bluetooth2/device/getDiscoveredDevice"
    ],
    "bluetooth.manage":[ 
       "com.webos.service.bluetooth2/a2dp/disconnect",
@@ -987,7 +1065,52 @@
       "com.webos.service.bluetooth2/opp/getStatus",
       "com.webos.service.bluetooth2/opp/monitorTransfer",
       "com.webos.service.bluetooth2/opp/pushFile",
-      "com.webos.service.bluetooth2/opp/rejectTransferRequest"
+      "com.webos.service.bluetooth2/opp/rejectTransferRequest",
+	  "com.webos.service.bluetooth2/a2dp/enableDelayReporting",
+      "com.webos.service.bluetooth2/a2dp/disableDelayReporting",
+      "com.webos.service.bluetooth2/a2dp/getDelayReportingTime",
+	  "com.webos.service.bluetooth2/avrcp/notifyMediaPlayStatus",
+	  "com.webos.service.bluetooth2/avrcp/getPlayerInfo",
+	  "com.webos.service.bluetooth2/avrcp/browse/getCurrentFolder",
+      "com.webos.service.bluetooth2/avrcp/browse/getNumberOfItems",
+      "com.webos.service.bluetooth2/avrcp/browse/getFolderItems",
+      "com.webos.service.bluetooth2/avrcp/browse/changePath",
+      "com.webos.service.bluetooth2/avrcp/browse/playItem",
+      "com.webos.service.bluetooth2/avrcp/browse/addToNowPlaying",
+      "com.webos.service.bluetooth2/avrcp/browse/search",
+	  "com.webos.service.bluetooth2/map/connect",
+      "com.webos.service.bluetooth2/map/disconnect",
+      "com.webos.service.bluetooth2/map/getMASInstances",
+      "com.webos.service.bluetooth2/map/getStatus",
+      "com.webos.service.bluetooth2/map/getMessageFilters",
+      "com.webos.service.bluetooth2/map/getFolderList",
+      "com.webos.service.bluetooth2/map/setFolder",
+      "com.webos.service.bluetooth2/map/getMessageList",
+      "com.webos.service.bluetooth2/map/getMessage",
+      "com.webos.service.bluetooth2/map/setMessageStatus",
+      "com.webos.service.bluetooth2/map/pushMessage",
+      "com.webos.service.bluetooth2/map/getMessageNotification",
+	  "com.webos.service.bluetooth2/pbap/setPhoneBook",
+      "com.webos.service.bluetooth2/pbap/getSize",
+      "com.webos.service.bluetooth2/pbap/vCardListing",
+      "com.webos.service.bluetooth2/pbap/getPhoneBookProperties",
+      "com.webos.service.bluetooth2/pbap/getvCardFilters",
+      "com.webos.service.bluetooth2/pbap/pullvCard",
+      "com.webos.service.bluetooth2/pbap/searchPhoneBook",
+      "com.webos.service.bluetooth2/pbap/pullPhoneBook",
+	  "com.webos.service.bluetooth2/device/getConnectedDevices",
+      "com.webos.service.bluetooth2/device/getPairedDevices",
+      "com.webos.service.bluetooth2/device/getDiscoveredDevice",
+	  "com.webos.service.hfp/hf/getStatus",
+      "com.webos.service.hfp/hf/answerCall",
+      "com.webos.service.hfp/hf/terminateCall",
+      "com.webos.service.hfp/hf/releaseHeldCalls",
+      "com.webos.service.hfp/hf/releaseActiveCalls",
+      "com.webos.service.hfp/hf/holdActiveCalls",
+      "com.webos.service.hfp/hf/mergeCall",
+      "com.webos.service.hfp/hf/call",
+      "com.webos.service.hfp/hf/setVolume",
+      "com.webos.service.hfp/hf/setVoiceRecognition"
    ],
    "camera":[ 
       "com.webos.service.camera2/captureImage",
@@ -1216,7 +1339,11 @@
    ],
    "configurator.callbacks":[ 
       "com.webos.service.applicationmanager/launch",
-      "com.webos.service.applicationmanager/getForegroundAppInfo"
+      "com.webos.service.applicationmanager/getForegroundAppInfo",
+	  "com.palm.bus/signal/registerServerStatus",
+      "com.palm.lunabus/signal/registerServerStatus",
+      "com.webos.notification/purgeHistory",
+      "com.webos.service.bus/signal/registerServerStatus"
    ],
    "sleep.release":[ 
       "com.palm.sleep/com/palm/power/activityEnd",
@@ -1422,7 +1549,23 @@
       "com.palm.preferences/systemProperties/getSysKeys",
       "com.palm.preferences/systemProperties/getSysKeysObj",
       "com.palm.preferences/systemProperties/getSysProperty",
-      "com.palm.service.devmode/getDevMode"
+      "com.palm.service.devmode/getDevMode",
+	  "com.webos.audio/getCurrentScenario",
+      "com.webos.audio/getVolume",
+      "com.webos.audio/media/getCurrentScenario",
+      "com.webos.audio/media/getLatency",
+      "com.webos.audio/media/getMicGain",
+      "com.webos.audio/media/getVolume",
+      "com.webos.audio/media/status",
+      "com.webos.audio/nav/status",
+      "com.webos.audio/phone/getCurrentScenario",
+      "com.webos.audio/phone/getVolume",
+      "com.webos.audio/ringtone/getVolume",
+      "com.webos.audio/ringtone/status",
+      "com.webos.audio/state/get",
+      "com.webos.audio/state/getPreference",
+      "com.webos.audio/system/getVolume",
+      "com.webos.audio/system/status"
    ],
    "settings.read":[ 
       "com.lge.settingsservice/getCurrentSettings",
@@ -1443,19 +1586,39 @@
       "com.webos.service.systemservice/deviceInfo/query",
       "com.webos.service.systemservice/getPreferenceValues",
       "com.webos.service.systemservice/getPreferences",
-      "com.webos.service.systemservice/osInfo/query"
+      "com.webos.service.systemservice/osInfo/query",
+	  "com.webos.audio/getCurrentScenario",
+      "com.webos.audio/getVolume",
+      "com.webos.audio/media/getCurrentScenario",
+      "com.webos.audio/media/getLatency",
+      "com.webos.audio/media/getMicGain",
+      "com.webos.audio/media/getVolume",
+      "com.webos.audio/media/status",
+      "com.webos.audio/nav/status",
+      "com.webos.audio/phone/getCurrentScenario",
+      "com.webos.audio/phone/getVolume",
+      "com.webos.audio/ringtone/getVolume",
+      "com.webos.audio/ringtone/status",
+      "com.webos.audio/state/get",
+      "com.webos.audio/state/getPreference",
+      "com.webos.audio/system/getVolume",
+      "com.webos.audio/system/status"
    ],
    "launcher.control":[ 
-      "com.webos.surfacemanager/closeByAppId"
+      "com.webos.surfacemanager/closeByAppId",
+	  "com.webos.surfacemanager/setAppMirroring"
    ],
    "launcher.status":[ 
-      "com.webos.surfacemanager/getForegroundAppInfo"
+      "com.webos.surfacemanager/getForegroundAppInfo",
+	  "com.webos.surfacemanager/getAppMirroring"
    ],
    "surfaces.control":[ 
-      "com.webos.surfacemanager/closeByAppId"
+      "com.webos.surfacemanager/closeByAppId",
+	  "com.webos.surfacemanager/setAppMirroring"
    ],
    "surfaces.status":[ 
-      "com.webos.surfacemanager/getForegroundAppInfo"
+      "com.webos.surfacemanager/getForegroundAppInfo",
+	  "com.webos.surfacemanager/getAppMirroring"
    ],
    "all":[ 
       "*/*"
@@ -1481,6 +1644,7 @@
       "com.palm.bus/signal/registerServerStatus",
       "com.palm.lunabus/signal/registerServerStatus",
       "com.webos.service.bus/signal/registerServerStatus"
+	
    ],
    "networking.internal":[ 
       "com.webos.service.connectionmanager/checkinternetstatus",
@@ -1526,7 +1690,11 @@
       "com.webos.service.downloadmanager/listPending",
       "com.webos.service.downloadmanager/pauseDownload",
       "com.webos.service.downloadmanager/resumeDownload",
-      "com.webos.service.downloadmanager/upload"
+      "com.webos.service.downloadmanager/upload",
+	  "com.webos.service.wifi/getCountryCode",
+	  "com.webos.service.wifi/setCountryCode",
+	  "com.webos.service.wifi/tethering/getMaxStationCount",
+	  "com.webos.service.wifi/tethering/setMaxStationCount"
    ],
    "networking":[ 
       "com.webos.service.connectionmanager/checkinternetstatus",
@@ -1567,5 +1735,114 @@
       "com.webos.service.connectionmanager/getwolwowlstatus",
       "com.webos.service.connectionmanager/monitorActivity",
       "com.webos.service.wifi/getstatus"
-   ]
+   ],
+   "testautomation.operation":[
+      "com.palm.service.tellurium/broadcastCommand",
+      "com.palm.service.tellurium/handleRequest",
+      "com.palm.service.tellurium/notifyEvent",
+      "com.palm.service.tellurium/ping",
+      "com.palm.service.tellurium/replyToCommand",
+      "com.palm.service.tellurium/subscribeToCommands",
+      "com.palm.service.tellurium/subscribeToEvents",
+      "com.palm.service.tellurium/version"
+   ],
+   "intent.operation":[
+      "com.webos.service.intent/query",
+      "com.webos.service.intent/start",
+      "com.webos.service.intent/sendResult",
+      "com.webos.service.intent/subscribeResult"
+   ],
+   "location":[
+      "com.webos.service.location/exitLocation",
+      "com.webos.service.location/getAllLocationHandlers",
+      "com.webos.service.location/getGeoCodeLocation",
+      "com.webos.service.location/getGpsSatelliteData",
+      "com.webos.service.location/getGpsStatus",
+      "com.webos.service.location/getLocationHandlerDetails",
+      "com.webos.service.location/getLocationUpdates",
+      "com.webos.service.location/getNmeaData",
+      "com.webos.service.location/getReverseLocation",
+      "com.webos.service.location/getState",
+      "com.webos.service.location/setState",
+      "com.webos.service.location/mock/enable",
+      "com.webos.service.location/mock/disable",
+      "com.webos.service.location/mock/setLocation"
+   ],
+   "location.manage":[
+      "com.webos.service.location/setState"
+   ],
+   "location.query":[
+      "com.webos.service.location/getAllLocationHandlers",
+      "com.webos.service.location/getGeoCodeLocation",
+      "com.webos.service.location/getGpsSatelliteData",
+      "com.webos.service.location/getGpsStatus",
+      "com.webos.service.location/getLocationHandlerDetails",
+      "com.webos.service.location/getLocationUpdates",
+      "com.webos.service.location/getNmeaData",
+      "com.webos.service.location/getReverseLocation",
+      "com.webos.service.location/getState",
+      "com.webos.service.location/mock/setLocation"
+   ],
+   "mediacontroller":[
+      "com.webos.service.mediacontroller/registerMediaSession",
+      "com.webos.service.mediacontroller/unregisterMediaSession",
+      "com.webos.service.mediacontroller/activateMediaSession",
+      "com.webos.service.mediacontroller/deactivateMediaSession",
+      "com.webos.service.mediacontroller/getMediaMetaData",
+      "com.webos.service.mediacontroller/getMediaPlayStatus",
+      "com.webos.service.mediacontroller/getMediaSessionInfo",
+      "com.webos.service.mediacontroller/getMediaSessionId",
+      "com.webos.service.mediacontroller/getActiveMediaSessions",
+      "com.webos.service.mediacontroller/setMediaMetaData",
+      "com.webos.service.mediacontroller/setMediaPlayStatus",
+      "com.webos.service.mediacontroller/setMediaMuteStatus",
+      "com.webos.service.mediacontroller/setMediaPlayPosition",
+      "com.webos.service.mediacontroller/receiveMediaPlaybackInfo",
+      "com.webos.service.mediacontroller/injectMediaKeyEvent"
+   ],
+   "mediaindexer.operation":[
+      "com.webos.service.mediaindexer/getPlugin",
+      "com.webos.service.mediaindexer/putPlugin",
+      "com.webos.service.mediaindexer/getPluginList",
+      "com.webos.service.mediaindexer/runDetect",
+      "com.webos.service.mediaindexer/stopDetect",
+      "com.webos.service.mediaindexer/getDeviceList",
+      "com.webos.service.mediaindexer/getAudioList",
+      "com.webos.service.mediaindexer/getAudioMetadata",
+      "com.webos.service.mediaindexer/getVideoList",
+      "com.webos.service.mediaindexer/getVideoMetadata",
+      "com.webos.service.mediaindexer/getImageList",
+      "com.webos.service.mediaindexer/getImageMetadata",
+      "com.webos.service.mediaindexer/getMediaDbPermission",
+      "com.webos.service.mediaindexer/requestDelete",
+      "com.webos.service.mediaindexer/requestMediaScan"
+   ],
+   "mediaindexerMock.operation":[
+      "com.webos.service.mediaindexerMock/getDeviceList",
+      "com.webos.service.mediaindexerMock/getAudioList",
+      "com.webos.service.mediaindexerMock/getAudioMetaData",
+      "com.webos.service.mediaindexerMock/getVideoList",
+      "com.webos.service.mediaindexerMock/getVideoMetaData",
+      "com.webos.service.mediaindexerMock/getImageList",
+      "com.webos.service.mediaindexerMock/getImageMetaData",
+      "com.webos.service.mediaindexerMock/getMediaDBPermission"
+   ],
+   "swupdate":[
+      "com.webos.service.swupdater/connect",
+      "com.webos.service.swupdater/getStatus",
+      "com.webos.service.swupdater/setConfig",
+      "com.webos.service.swupdater/startDownload",
+      "com.webos.service.swupdater/pauseDownload",
+      "com.webos.service.swupdater/resumeDownload",
+      "com.webos.service.swupdater/cancelDownload",
+      "com.webos.service.swupdater/startInstall",
+      "com.webos.service.swupdater/cancelInstall"
+   ],
+   "private":[
+      "*/com/palm/luna/private/*"
+   ],
+   "public":[
+      "*/com/palm/luna/private/ping",
+      "*/com/palm/luna/private/cancel"
+  ]
 }
