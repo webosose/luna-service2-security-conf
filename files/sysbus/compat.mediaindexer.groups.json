@@ -1,0 +1,4 @@
+{
+"allowedNames" : ["com.webos.service.mediaindexer","com.webos.service.mediaindexer.media","com.webos.service.mediaindexer.devices","com.webos.service.mediaindexer.settings"],
+"mediaindexer.operation": ["dev"]
+}

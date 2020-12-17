@@ -1,0 +1,5 @@
+{
+ "allowedNames":["com.webos.service.bluetooth2*",
+    "com.webos.service.ime"],
+ "devices" :["dev"]
+}

@@ -1,0 +1,9 @@
+{
+ "allowedNames":["com.webos.service.connectionmanager",
+    "com.webos.service.wifi",
+    "com.webos.service.wifi*",
+    "com.webos.service.downloadmanager"],
+ "networking" :["dev"],
+ "networking.internal" :["dev"],
+ "networking.query" :["dev"]
+}

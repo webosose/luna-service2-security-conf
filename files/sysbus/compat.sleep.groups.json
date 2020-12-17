@@ -1,0 +1,6 @@
+{
+"allowedNames" : ["com.palm.sleep","com.webos.service.alarm","com.webos.service.power"],
+"sleep.release": ["dev"],
+"sleep.internal":["dev"],
+"time":["dev"]
+}

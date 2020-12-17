@@ -1,0 +1,5 @@
+{
+"allowedNames" : ["com.palm.service.devmode"],
+"settings": ["dev"],
+"system.devmode":["dev"]
+}

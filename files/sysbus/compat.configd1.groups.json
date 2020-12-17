@@ -1,0 +1,6 @@
+{
+ "allowedNames":["com.webos.service.config"],
+ "configd" :["dev"],
+  "configd.internal" :["dev"],
+  "configd.private" :["dev"]
+}

@@ -1,0 +1,4 @@
+{
+"allowedNames" : ["com.webos.media","com.webos.pipelinectrl.*"],
+"media": ["dev"]
+}

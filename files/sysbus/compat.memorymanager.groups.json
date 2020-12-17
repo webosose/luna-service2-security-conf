@@ -1,0 +1,8 @@
+{
+"allowedNames" : ["com.webos.memorymanager", "com.webos.service.memorymanager"],
+"applications.internal": ["dev"],
+"system":["dev"],
+"memory.information":["dev"],
+"memory.management":["dev"],
+"configurator.callbacks":["dev"],
+}

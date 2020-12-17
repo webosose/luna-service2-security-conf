@@ -1,0 +1,5 @@
+{
+"allowedNames" : ["com.webos.bootManager"],
+"system": ["dev"],
+"activities.callbacks":["dev"]
+}

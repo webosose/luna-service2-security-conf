@@ -1,0 +1,6 @@
+{
+"allowedNames" : ["com.webos.notification"],
+"notifications.manage": ["dev"],
+"notifications.query":["dev"],
+"notifications":["dev"]
+}

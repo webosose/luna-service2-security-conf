@@ -1,0 +1,7 @@
+{
+ "allowedNames":["*/com/palm/luna/private/ping",
+    "*/com/palm/luna/private/cancel",
+    "*/com/palm/luna/private/*"],
+ "luna.internal" :["dev"],
+ "luna.internal.public" :["dev"]
+}

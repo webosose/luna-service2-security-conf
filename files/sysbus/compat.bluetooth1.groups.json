@@ -1,0 +1,5 @@
+{
+ "allowedNames":["com.webos.service.bluetooth2*"],
+ "bluetooth.manage" :["dev"],
+ "bluetooth.query" :["dev"]
+}

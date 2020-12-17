@@ -1,0 +1,5 @@
+{
+"allowedNames" : ["com.palm.db","com.palm.tempdb","com.webos.mediadb"],
+"database": ["dev"],
+"database.internal":["dev"]
+}

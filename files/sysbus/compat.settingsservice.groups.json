@@ -1,0 +1,5 @@
+{
+"allowedNames" : ["com.webos.settingsservice", "com.lge.settingsservice", "com.webos.service.settings"],
+"settings": ["dev"],
+"settings.read":["dev"]
+}

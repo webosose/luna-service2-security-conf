@@ -1,0 +1,7 @@
+{
+"allowedNames" : ["com.webos.surfacemanager*"],
+"launcher.control": ["dev"],
+"launcher.status":["dev"],
+"surfaces.control":["dev"],
+"surfaces.status":["dev"]
+}

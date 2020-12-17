@@ -1,0 +1,4 @@
+{
+"allowedNames" : ["*"],
+"database.test": ["dev"]
+}

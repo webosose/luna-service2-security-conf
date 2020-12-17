@@ -1,0 +1,8 @@
+{
+"allowedNames" : ["com.webos.applicationManager","com.webos.service.applicationManager","com.webos.service.applicationmanager"],
+"applications": ["dev"],
+"applications.dev":["dev"],
+"applications.internal":["dev"],
+"applications.launch":["dev"],
+"applications.query":["dev"]
+}

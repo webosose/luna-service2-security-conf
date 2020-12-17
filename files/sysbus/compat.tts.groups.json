@@ -1,0 +1,5 @@
+{
+"allowedNames" : ["com.webos.service.tts"],
+"tts": ["dev"],
+"tts.internal":["dev"]
+}

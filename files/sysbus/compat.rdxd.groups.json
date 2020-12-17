@@ -1,0 +1,4 @@
+{
+"allowedNames" : ["com.webos.rdxd"],
+"system.debug": ["dev"]
+}
