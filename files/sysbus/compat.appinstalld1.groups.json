@@ -1,4 +1,0 @@
-{
- "allowedNames":["com.webos.appInstallService"],
- "appinstalld.internal" :["dev"]
-}

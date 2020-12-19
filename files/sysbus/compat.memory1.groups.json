@@ -1,5 +1,0 @@
-{
- "allowedNames":[ "com.webos.service.memorymanager"],
- "memory.information" :["dev"],
- "memory.management" :["dev"]
-}
