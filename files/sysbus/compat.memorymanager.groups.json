@@ -4,5 +4,5 @@
 "system":["dev"],
 "memory.information":["dev"],
 "memory.management":["dev"],
-"configurator.callbacks":["dev"],
+"configurator.callbacks":["dev"]
 }

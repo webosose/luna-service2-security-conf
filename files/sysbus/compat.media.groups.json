@@ -1,4 +1,6 @@
 {
 "allowedNames" : ["com.webos.media","com.webos.pipelinectrl.*"],
-"media": ["dev"]
+"media": ["dev"],
+"public": ["dev"],
+"private": ["dev"]
 }
