@@ -1,5 +1,5 @@
 {
-  "ares.webos.cli": [
+  "arescli.interface": [
     "com.webos.appInstallService/dev/install",
     "com.webos.appInstallService/dev/remove",
     "com.webos.applicationManager/dev/listApps",
@@ -7,6 +7,7 @@
     "com.webos.applicationManager/dev/closeByAppId",
     "com.webos.applicationManager/dev/running",
     "com.webos.service.systemservice/deviceInfo/query",
-    "com.webos.service.systemservice/osInfo/query"
+    "com.webos.service.systemservice/osInfo/query",
+    "com.webos.surfacemanager/captureCompositorOutput"
   ]
 }

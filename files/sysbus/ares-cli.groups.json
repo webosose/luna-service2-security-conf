@@ -1,0 +1,4 @@
+{
+  "allowedNames" : ["*"],
+  "arescli.interface": ["dev"]
+}
