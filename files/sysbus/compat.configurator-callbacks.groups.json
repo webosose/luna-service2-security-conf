@@ -1,5 +1,0 @@
-{
-"allowedNames" : ["com.palm.configurator"],
-"configurator.callbacks": ["dev"],
-"activities.callbacks": ["dev"]
-}

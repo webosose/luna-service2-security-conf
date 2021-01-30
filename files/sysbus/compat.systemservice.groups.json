@@ -1,7 +1,0 @@
-{
-"allowedNames" : ["com.webos.service.systemservice"],
-"settings": ["dev"],
-"settings.read":["dev"],
-"time" : ["dev"],
-"time.query" : ["dev"]
-}

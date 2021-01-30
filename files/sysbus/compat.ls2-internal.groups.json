@@ -1,5 +1,0 @@
-{
-"allowedNames" : ["*"],
-"private": ["dev"],
-"public":["dev"]
-}

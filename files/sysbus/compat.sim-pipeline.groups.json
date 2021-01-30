@@ -1,4 +1,0 @@
-{
-"allowedNames" : ["com.webos.pipeline.*"],
-"media.pipeline": ["dev"]
-}

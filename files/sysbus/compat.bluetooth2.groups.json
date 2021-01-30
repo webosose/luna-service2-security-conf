@@ -1,6 +1,0 @@
-{
-"allowedNames" : ["com.webos.service.bluetooth2"],
- "devices": ["dev"],
- "bluetooth.query":["dev"],
- "bluetooth.manage":["dev"]
-}

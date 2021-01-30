@@ -1,6 +1,0 @@
-{
- "allowedNames":["com.webos.service.systemservice*",
-    "com.palm.sleep*"],
- "time" :["dev"],
- "time.query" :["dev"]
-}

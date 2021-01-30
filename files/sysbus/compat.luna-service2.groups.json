@@ -1,6 +1,0 @@
-{
-"allowedNames" : ["*"],
-"all": ["dev"],
-"luna.internal.public":["dev"],
-"luna.internal":["dev"]
-}

@@ -1,8 +1,0 @@
-{
- "allowedNames":["com.palm.bus/signal/*",
-    "com.palm.lunabus/signal/*",
-    "com.webos.service.bus/signal/*"],
- "signals.all" :["dev"],
- "signals.all.subscribe" :["dev"],
- "signals.register" :["dev"]
-}

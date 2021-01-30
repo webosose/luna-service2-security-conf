@@ -1,4 +1,0 @@
-{
- "allowedNames":["com.webos.appInstallService*"],
- "ares.webos.cli" :["dev"]
-}

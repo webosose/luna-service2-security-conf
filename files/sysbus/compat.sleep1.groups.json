@@ -1,5 +1,0 @@
-{
- "allowedNames":[ "com.palm.sleep*"],
- "sleep.internal" :["dev"],
- "sleep.release" :["dev"]
-}

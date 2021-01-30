@@ -1,6 +1,0 @@
-{
-"allowedNames" : ["*"],
-"signals.all": ["dev"],
-"signals.all.subscribe":["dev"],
-"signals.register": ["dev"]
-}

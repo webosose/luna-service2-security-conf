@@ -1,5 +1,0 @@
-{
- "allowedNames":["com.webos.booster"],
- "booster.control" :["dev"],
- "booster.status" :["dev"]
-}

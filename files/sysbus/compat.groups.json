@@ -1,5 +1,0 @@
-{
-"allowedNames" : ["*"],
-"settings": ["dev"],
-"settings.read":["dev"]
-}

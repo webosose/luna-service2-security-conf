@@ -1,7 +1,0 @@
-{
-"allowedNames" : ["com.webos.service.activitymanager","com.webos.service.activitymanager.client"],
-"activities": ["dev"],
-"activities.callbacks":["dev"],
-"activities.manage":["dev"],
-"activities.private":["dev"]
-}

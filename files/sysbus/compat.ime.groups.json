@@ -1,4 +1,0 @@
-{
-"allowedNames" : ["com.webos.service.ime*"],
-"devices": ["dev"]
-}

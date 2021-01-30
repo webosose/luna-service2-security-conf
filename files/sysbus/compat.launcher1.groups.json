@@ -1,5 +1,0 @@
-{
- "allowedNames":["com.webos.surfacemanager"],
- "launcher.control" :["dev"],
- "launcher.status" :["dev"]
-}
