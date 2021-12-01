@@ -8,6 +8,7 @@
     "com.webos.applicationManager/dev/running",
     "com.webos.service.systemservice/deviceInfo/query",
     "com.webos.service.systemservice/osInfo/query",
+    "com.webos.service.systemservice/softwareInfo/query",
     "com.webos.surfacemanager/captureCompositorOutput"
   ]
 }
